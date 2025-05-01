@@ -1,0 +1,182 @@
+.NAVER{
+  text-align: center;
+  font-size: 22px;
+}
+.NAVER a{
+  font-family: 'Nanum Square Neo',sans-serif;
+  font-weight: 900;
+  color: #03C75A;
+  text-decoration: none;
+}
+
+.lang{
+  position: absolute;
+  top: 20px;
+  right: 340px;
+}
+.lang select{
+  width: 95px;
+  height: 30px;
+  font-size: 12px;
+  outline: 0.5px solid #888888;
+  border: none;
+}
+.login_form{
+  position:relative;
+  top: 50%;
+}
+.box{
+  width: 400px;
+  height: 450px;
+  border-radius:10px;
+  background-color: #ffffff;
+  border: 1px solid #e2e3e5;
+  position: relative;
+  left: 36%;
+  z-index: 1;
+}
+.box .Three_login,
+.box .INPUT,
+.box .button{
+  position: absolute;
+}
+.Three_login{
+  display:flex;
+  position: relative;
+  left:20px;
+  list-style-type: none;
+  z-index: 2;
+}
+.Three_login li a{
+  margin-right: 20px;
+  text-decoration: none;
+  color:black;
+}
+.INPUT{
+  position:absolute;
+  top:50px;
+  left:0%;
+}
+.INPUT li{
+  list-style-type: none;
+}
+.ID{
+  height: 60px;
+  width: 300px;
+  position: relative;
+  z-index: 10;
+  border: none;
+  outline: 1px solid #c7ccd1;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.PASSWORD{
+  height: 60px;
+  width: 300px;
+  position: relative;
+  z-index: 10;
+  border: none;
+  outline: 1px solid #c7ccd1;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.ID:focus,.PASSWORD:focus{
+  z-index: 11;
+  outline: 2px solid #5aa764;
+}
+.login_button{
+  height: 50px;
+  width: 310px;
+  position: absolute;
+  top: 250px;
+  color:#ffffff;
+  font-size:18px;
+  background-color: #5aa764;
+  border: none;
+  border-radius:8px;
+}
+.loginIP{
+  position:relative;
+  top:200px;
+  display: flex;
+  align-items: center;
+}
+.login1{
+  display: flex;
+  justify-self: start;
+}
+.IP{
+  position:relative;
+  left:50px;
+}
+.IP a{
+  text-decoration: none;
+  color:black;
+}
+.face{
+  position: relative;
+  top: 225px;
+  left:70px;
+  color:#888888;
+  font-size: 14px;
+}
+.passkey{
+  height: 50px;
+  width: 310px;
+  position: absolute;
+  top:370px;
+  background-color: #ffffff;
+  color: #5aa764;
+  border: none;
+  outline: 1px solid #5aa764;
+  border-radius:8px;
+}
+
+.help{
+  display:flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.help li a{
+  font-size:15px;
+  color:#888888;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.img{
+  text-align: center;
+}
+.img img{
+  width: 400px;
+  height: 150px;
+  object-fit:cover;
+}
+.manyword{
+  list-style: none;
+  text-align: center;
+  position:relative;
+  right: 15px;
+}
+.manyword li{
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 12px;
+}
+.manyword a{
+  text-decoration: none;
+  color:#888888;
+}
+.CopyNaver{
+  position: relative;
+  left: 550px;
+  text-decoration: none;
+}
+.Copyright{
+  position: relative;
+  left:550px;
+  font-size: 12px;
+}
