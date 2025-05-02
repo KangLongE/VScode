@@ -43,12 +43,24 @@
 .Three_login{
   display:flex;
   position: relative;
-  left:20px;
+  justify-content: center;
+  top: -17px;
+  right: 0px;
   list-style-type: none;
   z-index: 2;
 }
 .Three_login li a{
-  margin-right: 20px;
+  display: block;
+  text-align:center;
+  border-top-right-radius:10px;
+  border-top-left-radius:10px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  width: 131.5px;
+  height: 50px;
+  background-color: #ffffff;
+  border: 1px solid #e2e3e5;
+  border-bottom: none;
   text-decoration: none;
   color:black;
 }
